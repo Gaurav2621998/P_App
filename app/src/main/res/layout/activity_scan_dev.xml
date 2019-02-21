@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   
+    <TextView android:id="@+id/device_name"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView android:id="@+id/device_address"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+       <View
+        android:id="@+id/itemseparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ff8800" />
+</LinearLayout>

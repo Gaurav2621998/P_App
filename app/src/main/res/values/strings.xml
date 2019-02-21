@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Pyrotech_Smart_Lights</string>
+    <string name="title">BLE-Devices</string>
 </resources>
